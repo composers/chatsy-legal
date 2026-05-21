@@ -3,61 +3,135 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Privacy policy for Chatsy, an on-device Apple Intelligence chat app for iOS.">
+  <link rel="canonical" href="https://composers.github.io/chatsy-legal/">
   <title>Chatsy Privacy Policy</title>
   <style>
     :root { color-scheme: light dark; }
     body {
       font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-      line-height: 1.5;
+      line-height: 1.55;
       max-width: 42rem;
       margin: 2rem auto;
-      padding: 0 1.25rem;
+      padding: 0 1.25rem 3rem;
       color: #1a1a1a;
       background: #fafafa;
     }
     @media (prefers-color-scheme: dark) {
       body { color: #e8e8e8; background: #121212; }
       h2 { color: #7dd3fc; }
+      a { color: #7dd3fc; }
     }
-    h1 { font-size: 1.75rem; margin-bottom: 0.5rem; }
+    a { color: #0891b2; }
+    h1 { font-size: 1.75rem; margin-bottom: 0.25rem; }
     h2 { font-size: 1.125rem; margin-top: 1.75rem; color: #0891b2; }
     p, li { margin: 0.5rem 0; }
     ul { padding-left: 1.25rem; }
-    .updated { font-size: 0.875rem; opacity: 0.7; margin-top: 2rem; }
+    .updated, footer { font-size: 0.875rem; opacity: 0.75; margin-top: 2rem; }
+    footer { border-top: 1px solid rgba(128, 128, 128, 0.25); padding-top: 1rem; }
   </style>
 </head>
 <body>
   <h1>Chatsy Privacy Policy</h1>
+  <p class="updated">Last updated: May 21, 2026</p>
+
+  <h2>Who we are</h2>
+  <p>
+    Chatsy is published by <strong>composers</strong> (the developer of the Chatsy iOS app).
+    This policy describes how the Chatsy app handles information on your device.
+  </p>
+  <p>
+    For privacy questions, open an issue on
+    <a href="https://github.com/composers/chatsy-legal/issues">GitHub</a>
+    or contact us through the support channel listed on the app’s App Store page.
+  </p>
 
   <h2>Summary</h2>
   <p>
     Chatsy runs on your device. Chat text and voice input stay on your iPhone or iPad.
-    We do not operate our own servers for conversations.
+    <strong>We do not operate our own servers for conversations and we do not receive your messages,
+    voice audio, or chat history.</strong>
   </p>
 
-  <h2>On-device processing</h2>
+  <h2>Requirements</h2>
   <p>
-    Messages are processed with Apple Intelligence (Foundation Models). Apple handles model availability
-    and updates according to its policies.
+    Chatsy requires <strong>iOS 26 or later</strong> and a device that supports
+    <strong>Apple Intelligence</strong> with Apple Intelligence enabled in Settings.
+    On devices without Apple Intelligence, the app offers a <strong>demo mode</strong> with
+    placeholder responses only (see below).
   </p>
 
-  <h2>Data we access</h2>
+  <h2>On-device processing and Apple services</h2>
+  <p>
+    Messages are processed with <strong>Apple Intelligence</strong> (Foundation Models) on your device.
+    Apple controls model availability, updates, and related system behavior under
+    <a href="https://www.apple.com/legal/privacy/">Apple’s Privacy Policy</a>.
+  </p>
+  <p>
+    We do not control Apple’s systems. When you use voice input, speech recognition is provided by Apple’s
+    Speech framework. Chatsy requests on-device recognition when your device supports it; if it is not
+    available, Apple’s speech services may apply according to Apple’s policies.
+  </p>
+
+  <h2>AI-generated content</h2>
+  <p>
+    Chatsy uses on-device Apple Intelligence for chat. Responses are generated automatically and may be
+    inaccurate, incomplete, or inappropriate. <strong>Do not rely on Chatsy for medical, legal, financial,
+    or emergency advice.</strong>
+  </p>
+
+  <h2>Data we access on your device</h2>
   <ul>
     <li>
-      <strong>Microphone and speech recognition</strong> — only while you hold the voice button, to fill the message field.
-      When your device supports it, recognition runs on-device.
+      <strong>Messages you send and AI replies</strong> — processed on-device for chat; not sent to us.
     </li>
     <li>
-      <strong>Saved chat</strong> — stored locally on your device (excluded from iCloud and iTunes/Finder backups)
-      so your conversation can be restored after you close Chatsy.
+      <strong>Microphone and speech recognition</strong> — only while you hold the voice button, to fill
+      the message field. When supported, recognition runs on-device.
+    </li>
+    <li>
+      <strong>Saved chat</strong> — stored locally under Application Support (excluded from device backups
+      such as iCloud Backup or encrypted computer backup) so your conversation can be restored after you
+      close Chatsy. Stored with file protection when your device is locked.
+    </li>
+    <li>
+      <strong>App settings</strong> — appearance and mood preferences stored locally (UserDefaults).
     </li>
   </ul>
 
-  <h2>Data we do not collect</h2>
+  <h2>Demo mode</h2>
   <p>
-    Chatsy does not include analytics, advertising, or account sign-in. We do not sell your data.
+    If your device does not support Apple Intelligence, you may use demo mode. Demo responses are
+    placeholder text generated in the app only. They are not sent to us and are not processed by
+    Apple Intelligence.
   </p>
 
-  <p class="updated">Last updated: May 2026</p>
+  <h2>Data we do not collect</h2>
+  <p>
+    Chatsy does not include analytics, advertising, or account sign-in. We do not sell your data and
+    we do not collect personal information on our servers because we do not operate chat servers.
+  </p>
+
+  <h2>How to delete your data</h2>
+  <ul>
+    <li>Start a <strong>new chat</strong> in the app to replace your saved conversation.</li>
+    <li><strong>Delete the app</strong> from your device to remove all local Chatsy data.</li>
+  </ul>
+
+  <h2>Children</h2>
+  <p>
+    Chatsy is not directed at children under 13, and we do not knowingly collect personal information
+    from children.
+  </p>
+
+  <h2>Changes to this policy</h2>
+  <p>
+    We may update this policy from time to time. The “Last updated” date at the top will change when we do.
+    Material changes may also be described in App Store release notes.
+  </p>
+
+  <footer>
+    <p>Chatsy iOS app · <a href="https://github.com/composers/chatsy-legal">Policy source</a></p>
+  </footer>
 </body>
 </html>
