@@ -1,8 +1,11 @@
 # Chatsy Legal
 
-Public privacy policy for the Chatsy iOS app.
+Public legal and support pages for the Chatsy iOS app.
 
-**Privacy Policy:** https://composers.github.io/chatsy-legal/
+| Page | URL |
+|------|-----|
+| Privacy Policy | https://composers.github.io/chatsy-legal/ |
+| Support | https://composers.github.io/chatsy-legal/support.html |
 
 Hosted with [GitHub Pages](https://pages.github.com/) from the `docs/` folder on `main`.
 
